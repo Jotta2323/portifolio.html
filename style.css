@@ -1,0 +1,50 @@
+body{
+  font-family:Arial, sans-serif;
+  background-attachment:linear-grandient(to right, #f4a93a,#ffffff);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  margin:0;
+}
+
+.profile-card{
+    background:#b20303;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    whidt:300px
+}
+
+.profile_img{
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    margin-bottom:15px;
+}
+
+h1{
+    margin:10px;
+    font-size:14px;
+}
+
+p{
+    color:#ffffff;
+    font-size:14px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:nome;
+    background:#f4a93a;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    transition:backgrond 0.3s;
+}
+
+button:houver{
+    background:#b20303;
+}
